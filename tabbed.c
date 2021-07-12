@@ -731,6 +731,8 @@ manage(Window w)
 
 		if(npisrelative) {
 			nextpos = sel + newposition;
+		} else if(npatend) {
+			nextpos = nclients - 1;
 		} else {
 			if (newposition < 0)
 				nextpos = nclients - newposition;
