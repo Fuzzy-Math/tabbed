@@ -1,0 +1,4 @@
+*.o
+*.vim
+config.h
+config.mk
