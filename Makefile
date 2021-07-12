@@ -32,6 +32,7 @@ config.h:
 clean:
 	@echo cleaning
 	@rm -f ${BIN} ${OBJ} tabbed-${VERSION}.tar.gz
+	@rm -f config.h
 
 dist: clean
 	@echo creating dist tarball
