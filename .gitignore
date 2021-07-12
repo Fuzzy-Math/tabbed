@@ -1,4 +1,6 @@
 *.o
 *.vim
+*.orig
+*.rej
 config.h
 config.mk
